@@ -1,0 +1,109 @@
+/* COMMON */
+
+.container-inside {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+
+.header {
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  width: 960px;
+  font-size: 26px;
+  padding: 15px 0 7.5px 0;
+}
+
+.baseline {
+  font-size: 20px;
+  color: black;
+  padding: 7.5px 0 15px 0;
+}
+
+.nav-header {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+
+.link {
+  font-size: 12px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.link-left {
+  display: flex;
+  flex-direction: row;
+}
+
+/* CONTENT */
+
+.container-content {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  width: 700px;
+}
+
+.side-content {
+  width: 240px;
+}
+
+.item {
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.item-heading {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.item-title {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.item-img {
+  margin: 5px 0;
+  height: 150px;
+}
+
+.item-description {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #dddddd;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer span {
+  color: black;
+  font-weight: bold;
+}

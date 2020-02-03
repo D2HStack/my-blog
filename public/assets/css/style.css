@@ -1,0 +1,12 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.container-outside {
+  width: 1000px;
+  background-color: #f1f1f1;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
